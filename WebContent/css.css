@@ -1,0 +1,85 @@
+
+@charset "utf-8";
+/* CSS Document */   
+*{margin:0;padding:0;border:0;}
+body {	font-family: "宋体";font-size: 12px;color:#939;line-height: 20px;text-align:left}
+ 
+a:link {text-decoration: none;}  
+a:visited {text-decoration: none;}
+.page{width:1003px; margin:0 auto;}
+
+
+.daohang{width:1003px; height:42px; margin:0 auto; background:#939;}
+.daohang p{width:110px; line-height:42px;float:left; text-align:center; font-size:14px; }
+.daohang p a{color:#FFFF00;} 
+.nav{position: relative;}
+.zuo{width:220px; float:left; margin-left:10px;margin-top: 20px;}
+.liaojie{width:220px;margin-bottom:10px;}
+.liaojie h1{font-size:14px;font-weight:bold;line-height:26px; border-bottom:1px solid #939; color:#939;}
+.liaojie p{text-align:left;line-height:25px;color:#939;}
+
+.you{width:750px; float:left; margin-left:10px;}
+.jieshao{width:748px;margin-bottom:10px; }
+.jieshao h1{font-size:14px;font-weight:bold;line-height:28px;border-bottom:1px solid #939; color:#939;}
+.jieshao p{text-align:left;line-height:40px;color:#939;}
+.navli{position: relative;}
+.navli ul{ width: 100%;top:24px;left:0;position: absolute;}
+.login{width:356px;height:306px;visibility: hidden;display: block;font-size: 0;content: " "; clear: both; height: 0;}
+.guidance_picin {
+    width: 80px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 250px;
+}
+.guidance_picwrap clearfix{
+    font-size: 0;
+margin: 0;
+font-family: "微软雅黑";
+display: inline-block;
+background-color: #fff;
+padding: 10px 0 0 10px;
+}
+.footer_statement {
+    padding: 0 0 0 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 90%;
+    clear: both;
+    
+}
+.container{
+    padding: 100px;
+    background-color: burlywood;
+    text-align: center;
+    margin: 100px;
+}
+.content{
+    width: 650px;
+    height: 90px;
+    position: relative;
+    left: 160px;
+    background-color:wheat;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 10px;
+    /* 设置自动换行 */
+    word-wrap: break-word;
+}
+.float{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
